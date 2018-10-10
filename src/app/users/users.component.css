@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  margin: 0;
+  padding: 20px;
+}
+.list {
+  margin-left: 20px;
+}
+.mat-list {
+  border: 1px solid black;
+  margin-top: 2px;
+}
+a {
+  text-decoration: none;
+}

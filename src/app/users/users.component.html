@@ -1,0 +1,17 @@
+<div class="container">
+
+  <div class="list">
+    <p>Список пользователей:</p>
+    <mat-list *ngFor="let user of arrUsers">
+
+      <mat-list-item>
+        <img matListAvatar src="{{ user.avatar_url }}" alt="">
+        <a matLine routerLink="/user/{{ user.login }}">{{user.login}}</a>
+      </mat-list-item>
+
+    </mat-list>
+  </div>
+
+  <router-outlet></router-outlet>
+
+</div>
