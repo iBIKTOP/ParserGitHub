@@ -1,4 +1,4 @@
-# SomeProject
+# ParserGitHub
 
 Программа написана на Angular.
 
